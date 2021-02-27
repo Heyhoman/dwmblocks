@@ -10,7 +10,7 @@ options=(zipman)
 source=("$pkgname::git+https://github.com/torrinfail/dwmblocks.git"
 	blocks.h)
 sha256sums=('SKIP'
-            '442e54ac69c6ef629072cc3505b33abc24c25dc1b1737d016db9d718eb8cf15e')
+            '458ddb69b1dae66d0ed41041fc820a251c058fc796c06184def40fe37eed2859')
 pkgver() {
   cd "$srcdir/$pkgname"
   printf "%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"

@@ -2,9 +2,9 @@
 #define PATH(name) "/home/tom/.local/bin/blocks/"name
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"Bat: ",	PATH("battery.sh"),	60,			0},
-	{"Load: ",	PATH("loadavg.sh"),	30,			0},
-	{"Mem: ",	PATH("memory.sh"),	30,			0},
+	{"bat: ",	PATH("battery.sh"),	60,			0},
+	{"load: ",	PATH("loadavg.sh"),	30,			0},
+	{"mem: ",	PATH("memory.sh"),	30,			0},
 	{"",		PATH("date.sh"),	5,			0},
 };
 
